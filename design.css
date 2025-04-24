@@ -53,6 +53,36 @@ header {
 .text-section {
     flex: 1;
 }
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-section img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Animation for floating effect */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Zoom on hover */
+.image-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+}
 
 .text-section h1 {
     font-size: 80px;
