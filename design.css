@@ -96,3 +96,297 @@ header {
     font-size: 20px;
     border-radius: 5px;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #383535;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    padding: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.text-section {
+    flex: 1;
+}
+
+.text-section h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.text-section p {
+    font-size: 25px;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.btn {
+    padding: 20px 30px;
+    background-color: #6366f1;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content:right;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    padding: 10px;
+}
+.icons-sidebar {
+    display: flex;
+    flex-direction:column-reverse;
+    gap: 20px;
+}
+
+.icons-section {
+    padding: 100px;
+   
+}
+
+.icons-grid {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.icon-box {
+    background-color: #1a1a1a;
+    padding: 30px;
+    text-align:center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #383535;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    padding: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.text-section {
+    flex: 1;
+}
+
+.text-section h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.text-section p {
+    font-size: 25px;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.btn {
+    padding: 20px 30px;
+    background-color: #6366f1;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content:right;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    padding: 10px;
+}
+.icons-sidebar {
+    display: flex;
+    flex-direction:column-reverse;
+    gap: 20px;
+}
+
+.icons-section {
+    padding: 100px;
+   
+}
+
+.icons-grid {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.icon-box {
+    background-color: #1a1a1a;
+    padding: 30px;
+    text-align:center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #383535;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    padding: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.text-section {
+    flex: 1;
+}
+
+.text-section h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.text-section p {
+    font-size: 25px;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.btn {
+    padding: 20px 30px;
+    background-color: #6366f1;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content:right;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    padding: 10px;
+}
+.icons-sidebar {
+    display: flex;
+    flex-direction:column-reverse;
+    gap: 20px;
+}
+
+.icons-section {
+    padding: 100px;
+   
+}
+
+.icons-grid {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.icon-box {
+    background-color: #1a1a1a;
+    padding: 30px;
+    text-align:center;
+    font-size: 20px;
+    border-radius: 5px;
+}
